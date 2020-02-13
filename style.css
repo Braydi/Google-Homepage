@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: arial, sans-serif;
+}
+
+#main {
+  display: flex;
+  align-items:center;
+  flex-flow: column wrap;
+  margin: 150px auto;
+}
+
+img {
+  width: 272px;
+  height: 92px;
+}
+
+#searchBar {
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  width: 400px;
+}
+
+nav {
+  padding: 10px;
+}
+
+#top-left a {
+	color: black;
+  font-size: 13px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+#top-left a:hover {
+  text-decoration: underline;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+}
